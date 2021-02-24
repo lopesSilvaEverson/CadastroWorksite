@@ -1,0 +1,25 @@
+Acesso homologação:
+
+http://apachehml2re/porto.re.emissaocadastro/index-teste.html#/  - acesso de homologação 
+
+Anexo papéis necessários para acesso. 
+
+Se cadastro existente, qual ação tomar? O cadastro de worksite está dividido em três fases, sendo:
+
+1º ocorre a consulta de pessoa (CPF ou CNPJ), nesse momento se confirma a existência de cadastro. Se não retornar com cadastro efetuar registro, caso já tenha algum cadastro, o robô deverá confrontar os dados de endereço do formulário com o cadastro, caso seja idênticos deve avançar, se não, cadastrar.
+
+2º  ocorre a consulta de parceiro de negócio (CPF ou CNPJ) Se não retornar com cadastro com as ofertas solicitadas efetuar registro, caso já tenha algum cadastro, o robô deverá confrontar os dados  das ofertas do formulário com o cadastro, caso seja idênticos deve avançar, se não, cadastrar os novos itens.
+
+Importante a criação de alguma validação de data de vigência (início e fim).
+
+O robô pode gerar algum log quando da existência de cadastro e realização de alguma alteração, bem como retornar com o código tríade de registro e lançar esses dados na planilha.
+
+3º ocorre a consulta  de parceiro oferta corretor , se ja estiver cadastrado, o desconto já está ativo, caso não, efetuar o cadastro.
+
+Links:
+
+https://share.vidyard.com/watch/gJVWrdUF6fZFZdgwyxQy2Y  - Video uso
+
+https://docs.google.com/forms/d/e/1FAIpQLScELs7zWcGMURZUoF5kitZJhn8DVb9h0WjwSusL5sDIMCANOA/viewform -  link formulário google 
+https://docs.google.com/forms/d/1LYrqb079iqH3PufJAVTH6JmmhtXBIBJogc3kOJoXs44/edit?ts=5f1823dd - link formulário visão respostas
+https://docs.google.com/spreadsheets/d/1mvFHXTjweIDKGNnUKJM8YFs14vbNIOq8Stg6NTIrIoI/edit#gid=895992486 - link base de dados Worksite

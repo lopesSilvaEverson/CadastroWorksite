@@ -1,0 +1,135 @@
+11:28:25 | Cadastro Worksite | Inicando o Robo 1º Tentativa
+11:28:25 | Cadastro Worksite | Finalizando aplicacao chrome
+11:28:26 | Cadastro Worksite | Finalizando aplicacao excel
+11:28:26 | Cadastro Worksite | Extraindo dados Config
+11:28:27 | Cadastro Worksite | Acessando Sistema Triade
+11:28:28 | Cadastro Worksite | Digitando Url http://172.27.212.107/porto.re.emissaocadastro/index-teste.html#/
+11:28:51 | Cadastro Worksite | Digitando os Papeis
+11:29:21 | Cadastro Worksite | Erro: Cannot find the UI element corresponding to this selector: <webctrl name='inputPerfis' tag='INPUT' />
+11:29:21 | Cadastro Worksite | Falha Acesso Sistema Triade
+11:29:21 | Cadastro Worksite | Falha ao iniciar o Robo
+11:29:21 | Cadastro Worksite | Inicando o Robo 2º Tentativa
+11:29:21 | Cadastro Worksite | Finalizando aplicacao chrome
+11:29:21 | Cadastro Worksite | Finalizando aplicacao excel
+11:29:21 | Cadastro Worksite | Extraindo dados Config
+11:29:22 | Cadastro Worksite | Acessando Sistema Triade
+11:29:23 | Cadastro Worksite | Digitando Url http://172.27.212.107/porto.re.emissaocadastro/index-teste.html#/
+11:29:23 | Cadastro Worksite | Digitando os Papeis
+11:29:54 | Cadastro Worksite | Erro: Cannot find the UI element corresponding to this selector: <webctrl name='inputPerfis' tag='INPUT' />
+11:29:54 | Cadastro Worksite | Falha Acesso Sistema Triade
+11:29:54 | Cadastro Worksite | Falha ao iniciar o Robo
+11:29:54 | Cadastro Worksite | Inicando o Robo 3º Tentativa
+11:29:54 | Cadastro Worksite | Finalizando aplicacao chrome
+11:29:54 | Cadastro Worksite | Finalizando aplicacao excel
+11:29:54 | Cadastro Worksite | Extraindo dados Config
+11:29:55 | Cadastro Worksite | Acessando Sistema Triade
+11:29:56 | Cadastro Worksite | Digitando Url http://172.27.212.107/porto.re.emissaocadastro/index-teste.html#/
+11:29:58 | Cadastro Worksite | Digitando os Papeis
+11:30:28 | Cadastro Worksite | Erro: Cannot find the UI element corresponding to this selector: <webctrl name='inputPerfis' tag='INPUT' />
+11:30:28 | Cadastro Worksite | Falha Acesso Sistema Triade
+11:30:28 | Cadastro Worksite | Falha ao iniciar o Robo
+11:30:28 | Cadastro Worksite | Enviando email erro
+11:30:28 | Cadastro Worksite | Capturando Tela de Erro
+11:30:28 | Cadastro Worksite | Captura de tela criado: CapturaTela_29092020_113028.png
+11:30:38 | Cadastro Worksite | Email erro enviado
+11:30:38 | Cadastro Worksite | Finalizando todas as aplicacoes
+11:30:38 | Cadastro Worksite | Finalizando aplicacao chrome
+11:30:38 | Cadastro Worksite | Finalizando aplicacao excel
+11:30:38 | Cadastro Worksite | Robo Finalizado
+
+
+12:25:39 | Cadastro Worksite | Inicando o Robo 1º Tentativa
+12:25:39 | Cadastro Worksite | Finalizando aplicacao chrome
+12:25:39 | Cadastro Worksite | Finalizando aplicacao excel
+12:25:39 | Cadastro Worksite | Extraindo dados Config
+12:25:39 | Cadastro Worksite | Finalizado extracao dados Config
+12:25:40 | Cadastro Worksite | Criando BaseDadosWorksite
+12:25:41 | Cadastro Worksite | Finalizado criacao BaseDadosWorksite
+12:25:41 | Cadastro Worksite | Acessando Sistema Triade
+12:25:42 | Cadastro Worksite | Digitando Url http://172.27.212.107/porto.re.emissaocadastro/index-teste.html#/
+12:26:05 | Cadastro Worksite | Digitando os Papeis
+12:26:35 | Cadastro Worksite | Erro: Cannot find the UI element corresponding to this selector: <webctrl name='inputPerfis' tag='INPUT' />
+12:26:35 | Cadastro Worksite | Falha Acesso Sistema Triade
+12:26:35 | Cadastro Worksite | Falha ao iniciar o Robo
+12:26:35 | Cadastro Worksite | Inicando o Robo 2º Tentativa
+12:26:35 | Cadastro Worksite | Finalizando aplicacao chrome
+12:26:35 | Cadastro Worksite | Finalizando aplicacao excel
+12:26:35 | Cadastro Worksite | Extraindo dados Config
+12:26:35 | Cadastro Worksite | Finalizado extracao dados Config
+12:26:35 | Cadastro Worksite | Criando BaseDadosWorksite
+12:26:36 | Cadastro Worksite | Finalizado criacao BaseDadosWorksite
+12:26:36 | Cadastro Worksite | Acessando Sistema Triade
+12:26:38 | Cadastro Worksite | Digitando Url http://172.27.212.107/porto.re.emissaocadastro/index-teste.html#/
+12:26:59 | Cadastro Worksite | Digitando os Papeis
+12:27:29 | Cadastro Worksite | Erro: Cannot find the UI element corresponding to this selector: <webctrl name='inputPerfis' tag='INPUT' />
+12:27:29 | Cadastro Worksite | Falha Acesso Sistema Triade
+12:27:29 | Cadastro Worksite | Falha ao iniciar o Robo
+12:27:29 | Cadastro Worksite | Inicando o Robo 3º Tentativa
+12:27:30 | Cadastro Worksite | Finalizando aplicacao chrome
+12:27:30 | Cadastro Worksite | Finalizando aplicacao excel
+12:27:30 | Cadastro Worksite | Extraindo dados Config
+12:27:30 | Cadastro Worksite | Finalizado extracao dados Config
+12:27:30 | Cadastro Worksite | Criando BaseDadosWorksite
+12:27:31 | Cadastro Worksite | Finalizado criacao BaseDadosWorksite
+12:27:31 | Cadastro Worksite | Acessando Sistema Triade
+12:27:32 | Cadastro Worksite | Digitando Url http://172.27.212.107/porto.re.emissaocadastro/index-teste.html#/
+12:27:56 | Cadastro Worksite | Digitando os Papeis
+12:28:26 | Cadastro Worksite | Erro: Cannot find the UI element corresponding to this selector: <webctrl name='inputPerfis' tag='INPUT' />
+12:28:26 | Cadastro Worksite | Falha Acesso Sistema Triade
+12:28:26 | Cadastro Worksite | Falha ao iniciar o Robo
+12:28:26 | Cadastro Worksite | Enviando email erro
+12:28:26 | Cadastro Worksite | Capturando Tela de Erro
+12:28:27 | Cadastro Worksite | Captura de tela criado: CapturaTela_29092020_122827.png
+12:28:37 | Cadastro Worksite | Email erro enviado
+12:28:37 | Cadastro Worksite | Finalizando todas as aplicacoes
+12:28:37 | Cadastro Worksite | Finalizando aplicacao chrome
+12:28:37 | Cadastro Worksite | Finalizando aplicacao excel
+12:28:37 | Cadastro Worksite | Robo Finalizado
+
+12:29:39 | Cadastro Worksite | Inicando o Robo 1º Tentativa
+12:29:39 | Cadastro Worksite | Finalizando aplicacao chrome
+12:29:39 | Cadastro Worksite | Finalizando aplicacao excel
+12:29:39 | Cadastro Worksite | Extraindo dados Config
+12:29:40 | Cadastro Worksite | Finalizado extracao dados Config
+12:29:40 | Cadastro Worksite | Criando BaseDadosWorksite
+12:29:41 | Cadastro Worksite | Finalizado criacao BaseDadosWorksite
+12:29:41 | Cadastro Worksite | Acessando Sistema Triade
+12:29:42 | Cadastro Worksite | Digitando Url http://172.27.212.107/porto.re.emissaocadastro/index-teste.html#/
+12:30:04 | Cadastro Worksite | Digitando os Papeis
+12:30:34 | Cadastro Worksite | Erro: Cannot find the UI element corresponding to this selector: <webctrl name='inputPerfis' tag='INPUT' />
+12:30:34 | Cadastro Worksite | Falha Acesso Sistema Triade
+12:30:34 | Cadastro Worksite | Falha ao iniciar o Robo
+12:30:34 | Cadastro Worksite | Inicando o Robo 2º Tentativa
+12:30:34 | Cadastro Worksite | Finalizando aplicacao chrome
+12:30:35 | Cadastro Worksite | Finalizando aplicacao excel
+12:30:35 | Cadastro Worksite | Extraindo dados Config
+12:30:35 | Cadastro Worksite | Finalizado extracao dados Config
+12:30:35 | Cadastro Worksite | Criando BaseDadosWorksite
+12:30:36 | Cadastro Worksite | Finalizado criacao BaseDadosWorksite
+12:30:36 | Cadastro Worksite | Acessando Sistema Triade
+12:30:37 | Cadastro Worksite | Digitando Url http://172.27.212.107/porto.re.emissaocadastro/index-teste.html#/
+12:30:58 | Cadastro Worksite | Digitando os Papeis
+12:31:29 | Cadastro Worksite | Erro: Cannot find the UI element corresponding to this selector: <webctrl name='inputPerfis' tag='INPUT' />
+12:31:29 | Cadastro Worksite | Falha Acesso Sistema Triade
+12:31:29 | Cadastro Worksite | Falha ao iniciar o Robo
+12:31:29 | Cadastro Worksite | Inicando o Robo 3º Tentativa
+12:31:29 | Cadastro Worksite | Finalizando aplicacao chrome
+12:31:29 | Cadastro Worksite | Finalizando aplicacao excel
+12:31:29 | Cadastro Worksite | Extraindo dados Config
+12:31:29 | Cadastro Worksite | Finalizado extracao dados Config
+12:31:29 | Cadastro Worksite | Criando BaseDadosWorksite
+12:31:30 | Cadastro Worksite | Finalizado criacao BaseDadosWorksite
+12:31:30 | Cadastro Worksite | Acessando Sistema Triade
+12:31:31 | Cadastro Worksite | Digitando Url http://172.27.212.107/porto.re.emissaocadastro/index-teste.html#/
+12:31:54 | Cadastro Worksite | Digitando os Papeis
+12:32:24 | Cadastro Worksite | Erro: Cannot find the UI element corresponding to this selector: <webctrl name='inputPerfis' tag='INPUT' />
+12:32:24 | Cadastro Worksite | Falha Acesso Sistema Triade
+12:32:24 | Cadastro Worksite | Falha ao iniciar o Robo
+12:32:24 | Cadastro Worksite | Enviando email erro
+12:32:24 | Cadastro Worksite | Capturando Tela de Erro
+12:32:24 | Cadastro Worksite | Captura de tela criado: CapturaTela_29092020_123224.png
+12:32:33 | Cadastro Worksite | Email erro enviado
+12:32:33 | Cadastro Worksite | Finalizando todas as aplicacoes
+12:32:33 | Cadastro Worksite | Finalizando aplicacao chrome
+12:32:33 | Cadastro Worksite | Finalizando aplicacao excel
+12:32:33 | Cadastro Worksite | Robo Finalizado

@@ -1,0 +1,275 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="io_Codigo" Type="InOutArgument(x:String)" />
+    <x:Property Name="io_Sucesso" Type="InOutArgument(x:Boolean)" />
+    <x:Property Name="io_ListaEmail" Type="InOutArgument(x:String)" />
+    <x:Property Name="io_Url" Type="InOutArgument(x:String)" />
+    <x:Property Name="io_Papeis" Type="InOutArgument(x:String)" />
+    <x:Property Name="io_Cep" Type="InOutArgument(x:String)" />
+    <x:Property Name="io_Ofertas" Type="InOutArgument(x:String)" />
+    <x:Property Name="io_Numero" Type="InOutArgument(x:String)" />
+    <x:Property Name="io_Cnpj" Type="InOutArgument(x:String)" />
+    <x:Property Name="io_Fantasia" Type="InOutArgument(x:String)" />
+    <x:Property Name="io_Susep" Type="InOutArgument(x:String)" />
+    <x:Property Name="io_Razao" Type="InOutArgument(x:String)" />
+    <x:Property Name="io_EmailUser" Type="InOutArgument(x:String)" />
+    <x:Property Name="io_EmailPass" Type="InOutArgument(x:String)" />
+    <x:Property Name="io_dt_Worksite" Type="InOutArgument(sd:DataTable)" />
+    <x:Property Name="io_Status" Type="InOutArgument(x:String)" />
+    <x:Property Name="IO_EmailList" Type="InOutArgument(x:String)" />
+  </x:Members>
+  <mva:VisualBasic.Settings>
+    <x:Null />
+  </mva:VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1169,864</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Flowchart DisplayName="Cadastro Worksite" sap:VirtualizedContainerService.HintSize="792,699" sap2010:WorkflowViewState.IdRef="Flowchart_2">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <av:Point x:Key="ShapeLocation">360,2.5</av:Point>
+        <av:Size x:Key="ShapeSize">60,75</av:Size>
+        <x:Double x:Key="Width">758</x:Double>
+        <av:PointCollection x:Key="ConnectorLocation">390,77.5 390,117.5</av:PointCollection>
+        <x:Double x:Key="Height">662.56</x:Double>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Flowchart.StartNode>
+      <x:Reference>__ReferenceID6</x:Reference>
+    </Flowchart.StartNode>
+    <FlowDecision x:Name="__ReferenceID4" Condition="[io_Sucesso.Equals(True)]" DisplayName="Flow  Sucesso" sap:VirtualizedContainerService.HintSize="79,87" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <av:Point x:Key="ShapeLocation">350.641666666667,203.5</av:Point>
+          <av:Size x:Key="ShapeSize">79,87</av:Size>
+          <av:PointCollection x:Key="TrueConnector">350.641666666667,247 180,247 180,284.02</av:PointCollection>
+          <av:PointCollection x:Key="FalseConnector">429.641666666667,247 710,247 710,560 680,560</av:PointCollection>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <FlowDecision.True>
+        <FlowStep x:Name="__ReferenceID0">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <av:Point x:Key="ShapeLocation">80,284.02</av:Point>
+              <av:Size x:Key="ShapeSize">200,51</av:Size>
+              <av:PointCollection x:Key="ConnectorLocation">280,309.52 390,309.52 390,336.5</av:PointCollection>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Obter Dados" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_22" UnSafe="False" WorkflowFileName="Biblioteca\ObterDados.xaml">
+            <ui:InvokeWorkflowFile.Arguments>
+              <InOutArgument x:TypeArguments="x:Boolean" x:Key="io_Sucesso">[io_Sucesso]</InOutArgument>
+              <InOutArgument x:TypeArguments="x:String" x:Key="io_Status">[io_Status]</InOutArgument>
+              <InOutArgument x:TypeArguments="sd:DataTable" x:Key="io_dtWorksite">[io_dt_Worksite]</InOutArgument>
+              <InOutArgument x:TypeArguments="x:String" x:Key="io_Cnpj">[io_Cnpj]</InOutArgument>
+              <InOutArgument x:TypeArguments="x:String" x:Key="io_Fantasia">[io_Fantasia]</InOutArgument>
+              <InOutArgument x:TypeArguments="x:String" x:Key="io_Razao">[io_Razao]</InOutArgument>
+              <InOutArgument x:TypeArguments="x:String" x:Key="io_Cep">[io_Cep]</InOutArgument>
+              <InOutArgument x:TypeArguments="x:String" x:Key="io_Numero">[io_Numero]</InOutArgument>
+              <InOutArgument x:TypeArguments="x:String" x:Key="io_Ofertas">[io_Ofertas]</InOutArgument>
+              <InOutArgument x:TypeArguments="x:String" x:Key="io_Susep">[io_Susep]</InOutArgument>
+            </ui:InvokeWorkflowFile.Arguments>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </ui:InvokeWorkflowFile>
+          <FlowStep.Next>
+            <FlowDecision x:Name="__ReferenceID2" Condition="[io_Sucesso.Equals(True)]" DisplayName="Flow  Sucesso" sap:VirtualizedContainerService.HintSize="79,87" sap2010:WorkflowViewState.IdRef="FlowDecision_2">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <av:Point x:Key="ShapeLocation">350.5,336.5</av:Point>
+                  <av:Size x:Key="ShapeSize">79,87</av:Size>
+                  <av:PointCollection x:Key="TrueConnector">350.5,380 180,380 180,424.02</av:PointCollection>
+                  <av:PointCollection x:Key="FalseConnector">429.5,380 580,380 580,434.02</av:PointCollection>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <FlowDecision.True>
+                <FlowStep x:Name="__ReferenceID3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <av:Point x:Key="ShapeLocation">80,424.02</av:Point>
+                      <av:Size x:Key="ShapeSize">200,51</av:Size>
+                      <av:PointCollection x:Key="ConnectorLocation">80,449.52 50,449.52 50,309.52 80,309.52</av:PointCollection>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Processo" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="Biblioteca/Processo.xaml">
+                    <ui:InvokeWorkflowFile.Arguments>
+                      <InOutArgument x:TypeArguments="sd:DataTable" x:Key="io_dt_Worksite">[io_dt_Worksite]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="io_Codigo">[io_Codigo]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="io_Cep">[io_Cep]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="io_Ofertas">[io_Ofertas]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="io_Fantasia">[io_Fantasia]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="io_Razao">[io_Razao]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="io_Numero">[io_Numero]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="io_Susep">[io_Susep]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="io_Url">[io_Url]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="io_Papeis">[io_Papeis]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="io_Cnpj">[io_Cnpj]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="io_ListaEmail">[io_ListaEmail]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="io_EmailUser">[io_EmailUser]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="io_EmailPass">[io_EmailPass]</InOutArgument>
+                    </ui:InvokeWorkflowFile.Arguments>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </ui:InvokeWorkflowFile>
+                  <FlowStep.Next>
+                    <x:Reference>__ReferenceID0</x:Reference>
+                  </FlowStep.Next>
+                </FlowStep>
+              </FlowDecision.True>
+              <FlowDecision.False>
+                <FlowStep x:Name="__ReferenceID5">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <av:Point x:Key="ShapeLocation">480,434.02</av:Point>
+                      <av:Size x:Key="ShapeSize">200,51</av:Size>
+                      <av:PointCollection x:Key="ConnectorLocation">580,485.02 580,534.5</av:PointCollection>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Envia Email Processamento" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_23" UnSafe="False" WorkflowFileName="Helper\EnviaEmailProcessamento.xaml">
+                    <ui:InvokeWorkflowFile.Arguments>
+                      <InArgument x:TypeArguments="x:String" x:Key="in_EmailUser">
+                        <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="io_EmailUser" />
+                      </InArgument>
+                      <InArgument x:TypeArguments="x:String" x:Key="in_EmailPass">
+                        <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="io_EmailPass" />
+                      </InArgument>
+                      <InArgument x:TypeArguments="x:String" x:Key="in_ListaEmail">
+                        <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="io_ListaEmail" />
+                      </InArgument>
+                    </ui:InvokeWorkflowFile.Arguments>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </ui:InvokeWorkflowFile>
+                  <FlowStep.Next>
+                    <FlowStep x:Name="__ReferenceID1">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <av:Point x:Key="ShapeLocation">480,534.5</av:Point>
+                          <av:Size x:Key="ShapeSize">200,51</av:Size>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Finalizar Robo" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_16" UnSafe="False" WorkflowFileName="Biblioteca\FinalizarRobo.xaml">
+                        <ui:InvokeWorkflowFile.Arguments>
+                          <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                        </ui:InvokeWorkflowFile.Arguments>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </ui:InvokeWorkflowFile>
+                    </FlowStep>
+                  </FlowStep.Next>
+                </FlowStep>
+              </FlowDecision.False>
+            </FlowDecision>
+          </FlowStep.Next>
+        </FlowStep>
+      </FlowDecision.True>
+      <FlowDecision.False>
+        <x:Reference>__ReferenceID1</x:Reference>
+      </FlowDecision.False>
+    </FlowDecision>
+    <x:Reference>__ReferenceID2</x:Reference>
+    <x:Reference>__ReferenceID3</x:Reference>
+    <x:Reference>__ReferenceID1</x:Reference>
+    <FlowStep x:Name="__ReferenceID6">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">290,117.5</av:Point>
+          <av:Size x:Key="ShapeSize">200,51</av:Size>
+          <av:PointCollection x:Key="ConnectorLocation">390,168.5 390,198.5 390.141666666667,198.5 390.141666666667,203.5</av:PointCollection>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Iniciando Robo" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_17" UnSafe="False" WorkflowFileName="Biblioteca\IniciandoRobo.xaml">
+        <ui:InvokeWorkflowFile.Arguments>
+          <InOutArgument x:TypeArguments="x:Boolean" x:Key="io_Sucesso">[io_Sucesso]</InOutArgument>
+          <InOutArgument x:TypeArguments="x:String" x:Key="io_ListaEmail">[io_ListaEmail]</InOutArgument>
+          <InOutArgument x:TypeArguments="x:String" x:Key="io_Url">[io_Url]</InOutArgument>
+          <InOutArgument x:TypeArguments="x:String" x:Key="io_Papeis">[io_Papeis]</InOutArgument>
+          <InOutArgument x:TypeArguments="x:String" x:Key="io_EmailUser">[io_EmailUser]</InOutArgument>
+          <InOutArgument x:TypeArguments="x:String" x:Key="io_EmailPass">[io_EmailPass]</InOutArgument>
+        </ui:InvokeWorkflowFile.Arguments>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:InvokeWorkflowFile>
+      <FlowStep.Next>
+        <x:Reference>__ReferenceID4</x:Reference>
+      </FlowStep.Next>
+    </FlowStep>
+    <x:Reference>__ReferenceID0</x:Reference>
+    <x:Reference>__ReferenceID5</x:Reference>
+  </Flowchart>
+</Activity>
